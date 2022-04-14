@@ -1,7 +1,7 @@
 ukraine-russia-conflict-tweeeets-nlp-project
 ==============================
 
-This is Ukraine and Russia Conflict Tweets Sentiment Analysis and Topic Modeling
+This is the NLP course work about Ukraine and Russia Conflict Tweets Sentiment Analysis and Topic Modeling
 
 Project Organization
 ------------
