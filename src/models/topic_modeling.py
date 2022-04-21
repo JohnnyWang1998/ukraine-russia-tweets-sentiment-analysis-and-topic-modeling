@@ -3,6 +3,7 @@ import pandas as pd
 from tqdm import tqdm
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
+from gensim.models import CoherenceModel, ldamodel
 
 
 def generate_daily_topic(text_dict: dict, topic_num: int, learning_decay: float):
@@ -50,3 +51,15 @@ def generate_daily_topic(text_dict: dict, topic_num: int, learning_decay: float)
     topic_df.index = list(text_dict.keys())
     topic_df.columns = ['topic_'+str(i) for i in range(topic_num)]
     return topic_df
+
+
+def compute_coherence_values(dictionary, corpus, id2word, texts, limit, start=3, step=1):
+    coherence_values = []
+    model_list = []
+    for num_topics in range(start, limit, step):
+        model = ldamodel.LdaModel(corpus=corpus, num_topics=num_topics, id2word=id2word, random_state=1)
+        model_list.append(model)
+        coherencemodel = CoherenceModel(model=model, texts=texts, dictionary=dictionary, coherence='c_v')
+        coherence_values.append(coherencemodel.get_coherence())
+
+    return model_list, coherence_values
