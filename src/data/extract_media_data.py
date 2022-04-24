@@ -36,4 +36,4 @@ def export_media_list(url: str):
     media_df = pd.DataFrame(list(zip(media_account_dict.keys(), media_account_dict.values())),
                             columns=['real_name', 'user_name'])
     media_df.head()
-    media_df.to_csv('../data/interim/media_accounts.csv', index=False)
+    media_df.to_csv('../data/external/media_accounts.csv', index=False)
