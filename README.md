@@ -13,7 +13,7 @@ In this, we conducted sentiment analysis and topic modeling on the tweets about 
 In terms of topic modeling, we used LDA to perform topic modeling based on English tweets as well as Russian tweets. We also analyzed the topics per day before and after the war started. Meanwhile, a comparison of topics on tweets from influencers and people who don’t have too many followers is presented. Since the original dataset is already filtered by some keywords, like Ukraine, Russia, War, etc. This could explain the situation that we were not able to find topics that are remarkably different from each other. Additionally, As a format of emotional expression, tweets may not reflect what is happening while news data may carry more information. 
 
 ## Remarks
-The war still goes on when we are doing this project. We do hope it ends as soon as possible. :dove
+The war still goes on when we are doing this project. We do hope it ends as soon as possible. 🕊️
 
 Project Organization
 ------------
