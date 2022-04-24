@@ -10,7 +10,7 @@ For sentiment analysis, BERT had a comparably better performance than the other 
 In terms of topic modeling, we used LDA to perform topic modeling based on English tweets as well as Russian tweets. We also analyzed the topics per day before and after the war started. Meanwhile, a comparison of topics on tweets from influencers and people who don’t have too many followers is presented. Since the original dataset is already filtered by some keywords, like Ukraine, Russia, War, etc, we were not able to find topics that are remarkably different from each other. 
 
 ## Guide
-To run this project, you need to make sure your machine meets the requirements presented in `requirements.txt`. You can also run the makefile command.
+To run this project, you need to make sure your machine meets the requirements presented in `requirements.txt`. You can also run the makefile command. Or, you can check the results in Jupyter notebooks within `notebooks` folder.
 
 ## Remarks
 The war still goes on when we are doing this project. We do hope it ends as soon as possible. 🕊️   --April 24, 2022
