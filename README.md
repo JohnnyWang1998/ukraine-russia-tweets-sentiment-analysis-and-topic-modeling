@@ -4,10 +4,10 @@ Ukraine Russia Conflict Twitter Sentiment Analysis and Topic Modeling
 This is the NLP course work about Ukraine and Russia Conflict Tweets Sentiment Analysis and Topic Modeling. 
 ## Introduction
 The conflict between Ukraine and Russia is one of the hottest topics on social media since February 24, 2022. Throughout this conflict, millions of tweets were generated every day on Twitter. We want to use NLP techniques to help us understand people’s opinions towards this conflict. In this project, we analyzed sentimental trends and conducted topic modeling based on a daily updated tweets dataset. We used the [Ukraine Conflict Twitter Dataset](https://www.kaggle.com/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows) from Kaggle.
-## Conclusion
-For sentiment analysis, BERT had a comparably better performance than the other methods. From the results obtained from BERT on the datasets with different hashtags, we could conclude that people on Twitter were mainly negative about the war. 
 
-In terms of topic modeling, we used LDA to perform topic modeling based on English tweets as well as Russian tweets. We also analyzed the topics per day before and after the war started. Meanwhile, a comparison of topics on tweets from influencers and people who don’t have too many followers is presented. Since the original dataset is already filtered by some keywords, like Ukraine, Russia, War, etc, we were not able to find topics that are remarkably different from each other. 
+For sentiment analysis, we tried K-means, TextBlob, Flair and BERT. It turns out that BERT had a comparably better performance than the other methods. From the results obtained from BERT on the datasets with different hashtags, we could conclude that people on Twitter were mainly negative about the war. 
+
+In terms of topic modeling, we used LDA to perform topic modeling based on English tweets as well as Russian tweets. We also analyzed the topics per day before and after the war started. Meanwhile, a comparison of topics on tweets from influencers and people who don’t have too many followers is presented.
 
 ## Guide
 To run this project, you need to make sure your machine meets the requirements presented in `requirements.txt`. You can also run the makefile command. Or, you can check the results in Jupyter notebooks within `notebooks` folder.
