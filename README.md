@@ -1,19 +1,19 @@
 Ukraine Russia Conflict Twitter Sentiment Analysis and Topic Modeling
-
-==============================
+------------
 
 This is the NLP course work about Ukraine and Russia Conflict Tweets Sentiment Analysis and Topic Modeling. 
 ## Introduction
-The conflict between Ukraine and Russia is one of the hottest topics on social media since February 24, 2022. Throughout this conflict, millions of tweets were generated every day on Twitter. We want to use NLP techniques to help us understand people’s opinions towards this conflict. In this project, we analyzed sentimental trends and conducted topic modeling based on a daily updated tweets dataset. 
-
-We used the Ukraine Conflict Twitter Dataset [1] from Kaggle. Each row contains the text of a tweet, language of the text, post time of the tweet, location that the tweet was sent from, creation date of the user account, number of the account’s following and followers. Since many of the locations remain null or inaccurate (for example, mostly Chicago, a quiet place), we decide to focus on language, user account created date, tweet text, following and followers. We want to investigate different groups of peoples’ perspectives, tendentious reports of news media, and other biases.
+The conflict between Ukraine and Russia is one of the hottest topics on social media since February 24, 2022. Throughout this conflict, millions of tweets were generated every day on Twitter. We want to use NLP techniques to help us understand people’s opinions towards this conflict. In this project, we analyzed sentimental trends and conducted topic modeling based on a daily updated tweets dataset. We used the [Ukraine Conflict Twitter Dataset](https://www.kaggle.com/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows) from Kaggle.
 ## Conclusion
-In this, we conducted sentiment analysis and topic modeling on the tweets about the war between Ukraine and Russia that started on Feb 24. When we conducted sentiment analysis on the selected data, BERT had a comparably better performance than the other methods. From the results obtained from BERT on the datasets with different hashtags, we could conclude that people on Twitter were mainly negative about the war. 
+For sentiment analysis, BERT had a comparably better performance than the other methods. From the results obtained from BERT on the datasets with different hashtags, we could conclude that people on Twitter were mainly negative about the war. 
 
-In terms of topic modeling, we used LDA to perform topic modeling based on English tweets as well as Russian tweets. We also analyzed the topics per day before and after the war started. Meanwhile, a comparison of topics on tweets from influencers and people who don’t have too many followers is presented. Since the original dataset is already filtered by some keywords, like Ukraine, Russia, War, etc. This could explain the situation that we were not able to find topics that are remarkably different from each other. Additionally, As a format of emotional expression, tweets may not reflect what is happening while news data may carry more information. 
+In terms of topic modeling, we used LDA to perform topic modeling based on English tweets as well as Russian tweets. We also analyzed the topics per day before and after the war started. Meanwhile, a comparison of topics on tweets from influencers and people who don’t have too many followers is presented. Since the original dataset is already filtered by some keywords, like Ukraine, Russia, War, etc, we were not able to find topics that are remarkably different from each other. 
+
+## Guide
+To run this project, you need to make sure your machine meets the requirements presented in `requirements.txt`. You can also run the makefile command.
 
 ## Remarks
-The war still goes on when we are doing this project. We do hope it ends as soon as possible. 🕊️
+The war still goes on when we are doing this project. We do hope it ends as soon as possible. 🕊️   --April 24, 2022
 
 Project Organization
 ------------
