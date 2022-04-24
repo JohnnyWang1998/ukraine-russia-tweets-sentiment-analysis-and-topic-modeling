@@ -40,8 +40,8 @@ Project Organization
 │   ├── 1.3-yn-Sentiment_Analysis_use_Flair.ipynb
 │   ├── 1.4-zh-Tweet_Sentiment_Analysis_with_BERT.ipynb
 │   ├── 2.0-zy-topic-modeling.ipynb
-│   ├── 2.2-zy-topic-analysis.ipynb
-│   ├── 2.3-yc-ru_lda.ipynb
+│   ├── 2.1-zy-topic-analysis.ipynb
+│   ├── 2.2-yc-ru_lda.ipynb
 │   └── 3.0-yc-ngram.ipynb
 ├── references
 │   └── Important Dates&Events.txt
