@@ -47,6 +47,7 @@ Project Organization
 │   └── Important Dates&Events.txt
 ├── reports
 │   ├── CS6120 Group 22 Project Proposal.pdf
+│   ├── CS6120 Group 22 Project Report.pdf
 │   └── figures
 │       ├── daily_topic_wordcloud.png
 │       ├── influential_topic_wordcloud.png
